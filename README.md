@@ -49,5 +49,15 @@ palindromo:
 ![image](https://github.com/danielsperezb/BonoParcialArep/assets/101849347/f92fc527-ac66-4c5f-b658-0ffe9fa13884)
 
 
+SUBI A DOCKER HUB:
+
+![image](https://github.com/danielsperezb/BonoParcialArep/assets/101849347/91042833-d1f3-479e-bb2a-b29f4224db60)
+
+Donde ya se ven los tags
+
+![image](https://github.com/danielsperezb/BonoParcialArep/assets/101849347/b50c33c4-b25f-47a7-9fe3-e3db03fd25d3)
+
+
+
 
 
