@@ -58,6 +58,8 @@ Donde ya se ven los tags
 ![image](https://github.com/danielsperezb/BonoParcialArep/assets/101849347/b50c33c4-b25f-47a7-9fe3-e3db03fd25d3)
 
 
+Comandos: 
+![image](https://github.com/danielsperezb/BonoParcialArep/assets/101849347/cd6d74ab-c3a8-492c-82e3-66737fb636c6)
 
 
 
