@@ -28,3 +28,26 @@ Modifique el Cliente para que se puedan llamar asíncronamente estas funciones, 
 
 
 Publíquelo en GIt.
+
+
+FUNCIONAMIENTO EN DOCKER:
+
+
+![image](https://github.com/danielsperezb/BonoParcialArep/assets/101849347/1953a4df-99b8-4126-ab37-fd1e38419c3d)
+
+sin:
+
+![image](https://github.com/danielsperezb/BonoParcialArep/assets/101849347/5c210e27-01e0-4c42-8d34-6859508b0ba7)
+
+
+cos:
+
+![image](https://github.com/danielsperezb/BonoParcialArep/assets/101849347/5caa9b28-e076-4c54-bba8-2824e6e5ae03)
+
+palindromo:
+
+![image](https://github.com/danielsperezb/BonoParcialArep/assets/101849347/f92fc527-ac66-4c5f-b658-0ffe9fa13884)
+
+
+
+
