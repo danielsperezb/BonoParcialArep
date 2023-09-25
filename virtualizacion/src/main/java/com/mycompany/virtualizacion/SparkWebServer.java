@@ -1,7 +1,3 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package com.mycompany.virtualizacion;
 
 import static spark.Spark.*;
@@ -27,9 +23,15 @@ public class SparkWebServer {
                return Math.cos(Double.parseDouble(number));
            });
           
-          get("/palidromo/:palabra", (request, response) -> {
+          get("/palindromo/:palabra", (request, response) -> {
                String palabraEsPalindrome = request.params(":palabra");
                return comprobarPalindromo(palabraEsPalindrome);
+           });
+          
+          get("/magnitudVector/:x/:y", (request, response) -> {
+               String x = request.params(":x");
+               String y = request.params(":y");
+               return  calcularMagnitud(x, y);
            });
      
     }
@@ -41,20 +43,24 @@ public class SparkWebServer {
         return 4567;
     }
     
-    public static String comprobarPalindromo(String palabra)
-    {
-  
-        int n = palabra.length();
-  
-        palabra = palabra.toLowerCase();
-  
-        for (int i = 0; i < n; i++, n--)
-        {
-            if (palabra.charAt(i) != palabra.charAt(n - 1))
-                return "false";
+   public static String comprobarPalindromo(String palabra) {
+    palabra = palabra.toLowerCase();
+    char[] caracteres = palabra.toCharArray();
+    int n = caracteres.length;
+
+    for (int i = 0; i < n / 2; i++) {
+        if (caracteres[i] != caracteres[n - 1 - i]) {
+            return "false";
         }
-  
-        return "true";
+    }
+
+    return "true";
+}
+
+    public static double calcularMagnitud(String x, String y) {
+
+        double magnitud = Math.sqrt(Double.parseDouble(x) * Double.parseDouble(x) + Double.parseDouble(y) * Double.parseDouble(y));
+        return magnitud;
     }
   
 
