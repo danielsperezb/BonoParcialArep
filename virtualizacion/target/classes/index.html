@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Llamadas Asíncronas a Spark</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <h1>Llamadas Asíncronas a Spark</h1>
+
+    <!-- Formulario para calcular el seno -->
+    <h2>Calcular Seno</h2>
+    <form id="sin-form">
+        <label for="numero-sin">Número:</label>
+        <input type="text" id="numero-sin" required>
+        <button type="button" onclick="calcularSeno()">Calcular</button>
+    </form>
+    <div id="resultado-sin"></div>
+
+    <!-- Formulario para calcular el coseno -->
+    <h2>Calcular Coseno</h2>
+    <form id="cos-form">
+        <label for="numero-cos">Número:</label>
+        <input type="text" id="numero-cos" required>
+        <button type="button" onclick="calcularCoseno()">Calcular</button>
+    </form>
+    <div id="resultado-cos"></div>
+
+    <!-- Otros formularios para otras funciones -->
+
+    <script>
+        function calcularSeno() {
+            const numero = $('#numero-sin').val();
+            $.get(`/sin/${numero}`, function (data) {
+                $('#resultado-sin').text(data);
+            });
+        }
+
+        function calcularCoseno() {
+            const numero = $('#numero-cos').val();
+            $.get(`/cos/${numero}`, function (data) {
+                $('#resultado-cos').text(data);
+            });
+        }
+
+        // Agrega funciones similares para otras funciones
+    </script>
+</body>
+</html>
