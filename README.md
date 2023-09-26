@@ -66,7 +66,8 @@ Comandos:
 
 Vas a la siguiente url: https://hub.docker.com/r/danielsperezb/bonoparcial
 
-![image](https://github.com/danielsperezb/BonoParcialArep/assets/101849347/89d5ac26-4d0c-448c-9b58-d9c962f8ae10)
+![image](https://github.com/danielsperezb/BonoParcialArep/assets/101849347/d46af293-1ce2-404e-add5-4f61858d5c42)
+
 
 ![image](https://github.com/danielsperezb/BonoParcialArep/assets/101849347/0a112e1a-f682-4de0-afc2-771888b75b4b)
 
