@@ -62,4 +62,21 @@ Comandos:
 ![image](https://github.com/danielsperezb/BonoParcialArep/assets/101849347/cd6d74ab-c3a8-492c-82e3-66737fb636c6)
 
 
+¿ Como subir la imagen de Docker a cualquier PC?
+
+Vas a la siguiente url: https://hub.docker.com/r/danielsperezb/bonoparcial
+
+![image](https://github.com/danielsperezb/BonoParcialArep/assets/101849347/89d5ac26-4d0c-448c-9b58-d9c962f8ae10)
+
+![image](https://github.com/danielsperezb/BonoParcialArep/assets/101849347/0a112e1a-f682-4de0-afc2-771888b75b4b)
+
+
+Pegas esa url con el pull: docker pull danielsperezb/bonoparcial
+
+Y en tu linea de comandos pones:
+
+docker run -d -p 34005:6000 --name bonoparcialdockercontainer3 danielsperezb/bonoparcial
+
+Puedes cambiar el bono de 34005 a 34007 o el que gustes, y tambien el nombre de bonoparcialdockercontainer3 a bonoparcialdockercontainer4
+
 
