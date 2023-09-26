@@ -34,7 +34,12 @@ Puedes acceder a las funciones desde tu navegador:
 
 ![Magnitud Vector](https://github.com/danielsperezb/BonoParcialArep/assets/101849347/feacca08-2e16-4045-b654-bca579aa18cd)
 
-## Parte 2 - Finalización de Magnitud de Vector y Cliente Asíncrono
+## Pruebas de Funcionamiento todo junto:
+
+![image](https://github.com/danielsperezb/BonoParcialArep/assets/101849347/c3f96e34-9d4f-422d-b2d1-149cd32320ec)
+
+
+# Parte 2 - Finalización de Magnitud de Vector y Cliente Asíncrono
 
 Modificamos el proyecto para publicar servicios REST que calculan:
 
@@ -45,7 +50,7 @@ Modificamos el proyecto para publicar servicios REST que calculan:
 
 Modificamos el Cliente para que se puedan llamar asíncronamente estas funciones, por ejemplo, con un formulario para cada función.
 
-## Primera Parte Realizada (Contiene todo excepto el cliente con formularios y la magnitud del vector)
+# Primera Parte Realizada (Contiene todo excepto el cliente con formularios y la magnitud del vector)
 
 Modificamos el proyecto para publicar servicios REST que calculan:
 
