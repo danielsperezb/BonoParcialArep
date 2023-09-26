@@ -4,10 +4,7 @@ URL PUBLICA DEL DOKER HUB: https://hub.docker.com/r/danielsperezb/finalbonoparci
 Vas a tu CMD: Pegas el Docker Pull Command: docker pull danielsperezb/finalbonoparcial
 Y luego en tu CMD pones: docker run -d -p 34000:6000 --name finalbonoparcialcontainer danielsperezb/finalbonoparcial
 
-Puedes diriguirte a: 
-
-![image](https://github.com/danielsperezb/BonoParcialArep/assets/101849347/9e2b445d-0cdf-448a-acc4-32c1afc1c2e8)
-
+Puedes diriguirte a: http://localhost:34000/index.html
 Y probar cada funcion, o probarlas por aparte con las siguientes urls:
 
 sin: http://localhost:34000/sin/2
