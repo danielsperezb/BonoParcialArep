@@ -1,3 +1,47 @@
+-----------------DOCKER IMAGEN CON TODO COMPLETADO----------------------
+
+Pasos:
+
+1. ![image](https://github.com/danielsperezb/BonoParcialArep/assets/101849347/835544de-66c0-4f33-89a9-71e15ff1e4d3)
+   
+2. Revisamos que se creo bien (OPCIONAL)
+   ![image](https://github.com/danielsperezb/BonoParcialArep/assets/101849347/41b73234-e2a8-426b-b6d1-7169ab950122)
+
+3. Ahora creamos una instacia, podrian ser mas. De la imagen creada anteriormente: y con el puerto 6000 enlazado a un puerto físico de su máquina (opción -p):
+    ![image](https://github.com/danielsperezb/BonoParcialArep/assets/101849347/a041b350-6ed1-4fff-b50c-3fbf03748c76)
+
+4. Ver si el contenedor esta corriendo (OPCIONAL)
+   ![image](https://github.com/danielsperezb/BonoParcialArep/assets/101849347/47a92356-365a-4256-a7be-51e92933fe04)
+   ![image](https://github.com/danielsperezb/BonoParcialArep/assets/101849347/dfea2d25-ae78-4f76-b7ed-8467f4ec5a0e)
+   ![image](https://github.com/danielsperezb/BonoParcialArep/assets/101849347/7e1de94a-1e6b-40e9-a5b8-6d570c8bc99d)
+
+5.  Creo el repositorio en Docker HUB:
+  Esta vez lo nombre: finalbonoparcial
+
+https://hub.docker.com/repository/docker/danielsperezb/finalbonoparcial/general
+![image](https://github.com/danielsperezb/BonoParcialArep/assets/101849347/d5b641a9-558f-46f9-9205-56e0e17dd9c4)
+
+6. Nombre de nombre de nuestro repositorio a como la venimos llamando
+   ![image](https://github.com/danielsperezb/BonoParcialArep/assets/101849347/d923562d-8a30-4382-958f-334dd4aded53)
+
+7. Verificacion Opcional
+   ![image](https://github.com/danielsperezb/BonoParcialArep/assets/101849347/dd946c9c-38a3-4c6a-be0a-3076de170a42)
+
+8. Iniciamos Sesion en Docker
+   ![image](https://github.com/danielsperezb/BonoParcialArep/assets/101849347/c4a20225-d1fe-4509-90eb-abfd686427ad)
+
+9. Empuje la imagen al repositorio en DockerHub
+    ![image](https://github.com/danielsperezb/BonoParcialArep/assets/101849347/2cbe607b-f94d-4051-9041-bbd986acb3bc)
+
+
+
+
+
+
+
+
+
+
 Modifique su proyecto publicando servicios REST para calcular:
 
 - Sin
